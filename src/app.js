@@ -28,6 +28,9 @@ app.get("/aboutus",(req,res)=>{
 app.get("/weather",(req,res)=>{
     res.render("weather");
 })
+app.get("/aboutme",(req,res)=>{
+    res.render("aboutme");
+})
 app.get("*",(req,res)=>{
     res.render("404err",{
         errormsg:"Oops! Page Not Found!!"
