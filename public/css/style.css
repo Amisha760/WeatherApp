@@ -174,9 +174,9 @@ footer p{
     background-color: #fff;
 }
 .tempInformation{
-    width: 33rem;
+    width: 28rem;
     margin: auto;
-    min-height: 20rem;
+    min-height: 17rem;
     background-color: #323544;
     border-radius: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -201,7 +201,7 @@ footer p{
 
 .main_layer{
     width: 100%;
-    height: 80%;
+    height: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -236,3 +236,7 @@ sup{
     margin-top: -2rem;
 }
 
+.data_hide{
+    display: none;
+    visibility: hidden;
+}
